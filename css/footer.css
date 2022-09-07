@@ -16,9 +16,6 @@
     text-decoration: none;
     list-style: none;
 }
-body{
-    font-family: 'Open Sans', sans-serif;
-}
 
 .footer-container{
     max-width: 1200px;
@@ -31,6 +28,7 @@ body{
     background: var(--second-color);
     color: var(--white);
     padding: 0.625rem;
+    font-family: 'Open Sans', sans-serif;
     max-width: 100%;
 }
 #footer-content{
@@ -50,6 +48,12 @@ body{
 .footer-items li{
     margin-top: 1.3rem;
 }
+.third-item{
+    justify-self: center;
+}
+.last-item{
+    justify-self: self-end;
+}
 .email-for-newsletter form{
     display: flex;
     gap: .4rem;
@@ -61,6 +65,7 @@ body{
     padding: .5rem;
     color: var(--white);
     border-radius: 2px; 
+    font-size: inherit;
 }
 .email-for-newsletter
  form input:focus{
@@ -86,9 +91,14 @@ body{
     color: var(--line-color);
 }
 .footer-link .fa-brands{
-font-size: 1.25rem;
+font-size: 1.3rem;
 margin-left: .8rem;
 }
+.footer-link .fa, .fas{
+font-size: 1.1rem;
+
+}
+
 .footer-link .fa-facebook{
     margin-left: 0;
 }
@@ -114,7 +124,7 @@ margin-left: .8rem;
         text-align: center;
     }
 }
- /*for mobile screen*/ 
+  
 @media (max-width:686px){
     #footer-content{
         display: block;
@@ -126,7 +136,7 @@ margin-left: .8rem;
    
        
   }
-
+/*for mobile screen*/
 @media (max-width:428px){
     .email-for-newsletter form{
         flex-wrap:wrap;
