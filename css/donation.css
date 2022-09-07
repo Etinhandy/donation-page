@@ -15,11 +15,11 @@
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
 }
 
 /* hero section styles */
@@ -28,8 +28,7 @@
 }
 
 .donation-hero-section {
-  background: url(../img/Rectangle\ 114.png),
-    url(../img/Frame\ 91.png);
+  background: url(../img/Rectangle\ 114.png), url(../img/unsplash_8ldqRkOk5oo.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -37,7 +36,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 38rem 0 8rem;
+  padding: 0 36rem 0 8rem;
 }
 
 /* This is the Monteserratti font properties stored in this class to avoid repetition */
@@ -258,37 +257,11 @@ input[type="radio"]:checked {
   border: none;
 }
 
-/* for some laptop screens */
-
-@media(max-width: 1024px) {
-  .donation-hero-section {
-    padding: 0 20rem 0 8rem;
-  }
-
-  .donation-flex {
-    padding: 4rem 2rem;
-  }
-
-  .donation-pic-frame {
-    width: 29rem;
-    height: 30rem;
-  }
-
-  .donation-flex-text {
-    width: 49%;
-  }
-  .donation-flex-pic {
-    width: 49%;
-  }
-  
-}
-
-
 /* mediaqueries for tablet view */
 
 @media (max-width: 768px) {
   .donation-hero-section {
-    padding: 0 9rem 0 4rem;
+    padding: 0 8rem 0 4rem;
     min-height: 25rem;
   }
 
@@ -342,7 +315,7 @@ input[type="radio"]:checked {
 
 @media (max-width: 428px) {
   .donation-hero-section {
-    padding: 0 9rem 0 4rem;
+    padding: 0 6rem 0 4rem;
     min-height: 25rem;
   }
 
