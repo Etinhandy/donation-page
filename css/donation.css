@@ -252,7 +252,7 @@ input[type="radio"]:checked {
   background-color: #0b55f4;
   line-height: 17.1px;
   letter-spacing: 1.25px;
-  padding: 5px 24px;
+  padding: 10px 24px;
   border-radius: 8px;
   outline: none;
   border: none;
