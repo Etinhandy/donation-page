@@ -289,7 +289,7 @@ input[type="radio"]:checked {
 @media (max-width: 768px) {
   .donation-hero-section {
     padding: 0 9rem 0 4rem;
-    height: 25rem;
+    min-height: 25rem;
   }
 
   .donation-flex {
@@ -343,7 +343,7 @@ input[type="radio"]:checked {
 @media (max-width: 428px) {
   .donation-hero-section {
     padding: 0 9rem 0 4rem;
-    height: 25rem;
+    min-height: 25rem;
   }
 
   .donation-flex {
